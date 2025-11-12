@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+   <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Login</h1>
+
+            <div class="labelGroup">
+                <label for="usuario">Usuário:</label>
+                <input type="text" id="usuario" required>
+            </div>
+
+            <div class="labelGroup">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" required>
+            </div>
+
+            <div class="justifyCenter">
+                <button onclick="fazerLogin()">Entrar</button>
+           
+            </div>
+
+            <p>Não possui uma conta?
+                <a href="../index/CadastroCRUD.html">Cadastre-se</a>
+            </p>
+        </div>
+    </div>
+    <script src="../js/loginCRUD.JS"></script>
+</body>
+</html>

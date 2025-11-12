@@ -1,0 +1,74 @@
+/* Centraliza o conteúdo na tela */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(45, 45, 160);
+}
+
+/* Estilo do card de cadastro */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Estiliza os inputs e os labels */
+.labelGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.labelGroup label {
+    width: 100px; /* Define largura fixa para alinhar */
+    font-weight: bold;
+}
+
+.labelGroup input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botão de cadastro */
+.justifyCenter {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Link para login */
+p {
+    text-align: center;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
